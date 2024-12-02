@@ -1,0 +1,78 @@
+.all-repos-container {
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.repo-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.repo-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.repo-card:hover {
+    background-color: #f1f1f1;
+}
+
+.repo-card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.tinder-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+}
+
+.repo-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.head-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-main a{
+    background-color: '#24292f';
+    color: '#ffffff';
+    padding: 1em;
+}
+
+body{
+    background-color: '#24292f',
+}
+.repo-card {
+    transition: background-color 0.3s ease;
+}
+
+.repo-card.swiped-right {
+    background-color: green;
+}
